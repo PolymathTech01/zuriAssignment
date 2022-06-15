@@ -10,7 +10,6 @@ main {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  /* border-radius: 6px; */
 }
 img {
   /* padding-bottom: 2em;
@@ -22,6 +21,8 @@ img {
 .sedans {
   background-color: hsl(31, 77%, 52%);
   height: 27em;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
 }
 .suvs {
   background-color: hsl(184, 100%, 22%);
@@ -30,6 +31,8 @@ img {
 .luxury {
   background-color: hsl(179, 100%, 13%);
   height: 27em;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
 h2 {
   padding-left: 2em;
